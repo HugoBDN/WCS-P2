@@ -1,0 +1,28 @@
+.reserve {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  margin: 1rem;
+}
+
+@media (max-width: 767px) {
+  .reserve {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .reserve .loc {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .map {
+    margin-bottom: 15px;
+  }
+}
